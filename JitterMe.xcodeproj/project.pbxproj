@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD37DE9021DA1E6100783AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37DE8F21DA1E6100783AE4 /* AppDelegate.swift */; };
+		AD37DE9221DA1E6100783AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37DE9121DA1E6100783AE4 /* ViewController.swift */; };
+		AD37DE9521DA1E6100783AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD37DE9321DA1E6100783AE4 /* Main.storyboard */; };
+		AD37DE9721DA1E6400783AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD37DE9621DA1E6400783AE4 /* Assets.xcassets */; };
+		AD37DE9A21DA1E6400783AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD37DE9821DA1E6400783AE4 /* LaunchScreen.storyboard */; };
+		AD37DEA221DA261900783AE4 /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37DEA121DA261900783AE4 /* Jitterable.swift */; };
+		AD37DEA421DA265400783AE4 /* ClickMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37DEA321DA265400783AE4 /* ClickMeButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD37DE8C21DA1E6100783AE4 /* JitterMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitterMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD37DE8F21DA1E6100783AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD37DE9121DA1E6100783AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD37DE9421DA1E6100783AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD37DE9621DA1E6400783AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD37DE9921DA1E6400783AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD37DE9B21DA1E6400783AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD37DEA121DA261900783AE4 /* Jitterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+		AD37DEA321DA265400783AE4 /* ClickMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickMeButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD37DE8921DA1E6100783AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD37DE8321DA1E6100783AE4 = {
+			isa = PBXGroup;
+			children = (
+				AD37DE8E21DA1E6100783AE4 /* JitterMe */,
+				AD37DE8D21DA1E6100783AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD37DE8D21DA1E6100783AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD37DE8C21DA1E6100783AE4 /* JitterMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD37DE8E21DA1E6100783AE4 /* JitterMe */ = {
+			isa = PBXGroup;
+			children = (
+				AD37DEA821DA27BF00783AE4 /* Views */,
+				AD37DEA521DA267000783AE4 /* Protocol */,
+				AD37DE8F21DA1E6100783AE4 /* AppDelegate.swift */,
+				AD37DE9121DA1E6100783AE4 /* ViewController.swift */,
+				AD37DE9321DA1E6100783AE4 /* Main.storyboard */,
+				AD37DE9621DA1E6400783AE4 /* Assets.xcassets */,
+				AD37DE9821DA1E6400783AE4 /* LaunchScreen.storyboard */,
+				AD37DE9B21DA1E6400783AE4 /* Info.plist */,
+			);
+			path = JitterMe;
+			sourceTree = "<group>";
+		};
+		AD37DEA521DA267000783AE4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AD37DEA121DA261900783AE4 /* Jitterable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AD37DEA821DA27BF00783AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD37DEA321DA265400783AE4 /* ClickMeButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD37DE8B21DA1E6100783AE4 /* JitterMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD37DE9E21DA1E6400783AE4 /* Build configuration list for PBXNativeTarget "JitterMe" */;
+			buildPhases = (
+				AD37DE8821DA1E6100783AE4 /* Sources */,
+				AD37DE8921DA1E6100783AE4 /* Frameworks */,
+				AD37DE8A21DA1E6100783AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JitterMe;
+			productName = JitterMe;
+			productReference = AD37DE8C21DA1E6100783AE4 /* JitterMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD37DE8421DA1E6100783AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sudhanshu Sudhanshu";
+				TargetAttributes = {
+					AD37DE8B21DA1E6100783AE4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AD37DE8721DA1E6100783AE4 /* Build configuration list for PBXProject "JitterMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD37DE8321DA1E6100783AE4;
+			productRefGroup = AD37DE8D21DA1E6100783AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD37DE8B21DA1E6100783AE4 /* JitterMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD37DE8A21DA1E6100783AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD37DE9A21DA1E6400783AE4 /* LaunchScreen.storyboard in Resources */,
+				AD37DE9721DA1E6400783AE4 /* Assets.xcassets in Resources */,
+				AD37DE9521DA1E6100783AE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD37DE8821DA1E6100783AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD37DE9221DA1E6100783AE4 /* ViewController.swift in Sources */,
+				AD37DE9021DA1E6100783AE4 /* AppDelegate.swift in Sources */,
+				AD37DEA421DA265400783AE4 /* ClickMeButton.swift in Sources */,
+				AD37DEA221DA261900783AE4 /* Jitterable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD37DE9321DA1E6100783AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD37DE9421DA1E6100783AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD37DE9821DA1E6400783AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD37DE9921DA1E6400783AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD37DE9C21DA1E6400783AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD37DE9D21DA1E6400783AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD37DE9F21DA1E6400783AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHEPWB64JP;
+				INFOPLIST_FILE = JitterMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sud.JitterMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD37DEA021DA1E6400783AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHEPWB64JP;
+				INFOPLIST_FILE = JitterMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sud.JitterMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD37DE8721DA1E6100783AE4 /* Build configuration list for PBXProject "JitterMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD37DE9C21DA1E6400783AE4 /* Debug */,
+				AD37DE9D21DA1E6400783AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD37DE9E21DA1E6400783AE4 /* Build configuration list for PBXNativeTarget "JitterMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD37DE9F21DA1E6400783AE4 /* Debug */,
+				AD37DEA021DA1E6400783AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD37DE8421DA1E6100783AE4 /* Project object */;
+}
